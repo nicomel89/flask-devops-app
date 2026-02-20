@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   app:
-    build: .
+    image: nicomel89/flask-devops-app:latest
     ports:
       - "5000:5000"
     depends_on:
