@@ -28,5 +28,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: nicomel89/flask-devops-app:latest
-        tags: nicomel89/flask-devops-app:${{ env.TAG }}
+        tags: |
+          nicomel89/flask-devops-app:latest
+          nicomel89/flask-devops-app:${{ env.TAG }}
